@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+font-weight: bold;
+ font-family: 'Golos Text', sans-serif;
+ font-family: 'Raleway', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.header{
+    display: flex;
+    position: relative;
+    margin-left: 90px;
+
+}
+
+.menu{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+.logo {
+    color: gray;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.bg {
+    margin-bottom: 300px;
+    position: absolute;
+    width: 700px;
+    z-index: -1;
+    
+}
+.esp {
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    width: 350px;
+}
+.header-info {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-txt {
+    width: 50%;
+    padding-right: 35px;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+
+.header-txt p{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 35px;
+}
+
+.btn-1{
+    display: inline-block;
+    background-color: rgb(139, 170, 206);
+    padding: 13px 30px;
+    border-radius: 255px;
+    color:black;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn-1:hover{
+    background-color: gray;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.header-img img{
+    width: 650;
+}
+
+.info {
+   
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-1 {
+    width: 300px;
+    padding: 15px 25px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.info-1 img {
+    width: 35px;
+}
+.info-1 h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.info-1 p{
+    
+    font-size: 16px;
+    color: gray;
+}
+
+/*Tarjetas*/
+h3{
+   
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+   }
+    .container-card{
+    font-weight: bold;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 100%;
+    display:flex;
+    max-width: 1100px;
+    margin: auto;
+    
+    }
+  
+    .title-cards{
+    font-size: x-large;
+    font-weight: bolder;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 80px;
+    text-align: center;
+    color: black;
+    }
+    .card{
+    color: black;
+    font-size: large;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+    }
+    .card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    }
+    .card img{
+    width: 100%;
+    height: 210px;
+    }
+    .card .contenido-card{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    }
+    .card .contenido-card h3{
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    color: #7a7a7a;
+    }
+    .card .contenido-card p{
+        font-weight: bold;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-bottom: 5px;
+    }
+    .card .contenido-card a{
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(139, 170, 206);
+    border: 1px solid rgb(139, 170, 206);
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+    }
+    .card .contenido-card a:hover{
+    background: rgb(139, 170, 206);
+    color: rgb(32, 32, 32);
+    }
+    @media only screen and (min-width:320px) and (max-width:768px){
+    .container-card{
+      flex-wrap: wrap;
+    }
+    
+    }
+    .card{
+      margin: 15px;
+    }
+    .nosotros {
+    margin-top: 40px;
+    background-color: rgb(219, 219, 219);
+    }
+  /* Fin Tarjetas*/
+
+  /*Chatbot*/
+  
+
+  #chat-container {
+    
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #chat {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #chat li {
+    margin-bottom: 10px;
+  }
+  
+  #chat-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #chat-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #chat-form button {
+    border: none;
+    background-color: rgb(139, 170, 206);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #chat-form button:hover {
+    background-color: rgb(139, 170, 206);
+  }
+
+  
